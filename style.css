@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap-first {
+  background-image: url(./img/first-img-background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-first h1 {
+  margin-top: 277px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+}
+
+.first-paragraph {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.input-first {
+  width: 503px;
+  height: 63px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.input-first::-webkit-input-placeholder {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+
+.button-search-first {
+  width: 153px;
+  height: 63px;
+  background-color: #5474fd;
+  border: 2px solid #ffffff;
+  margin-bottom: 107px;
+}
+
+.first-scroll {
+  margin-bottom: 142px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-scroll p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+}
+
+.footer-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 83px;
+  background-color: #5474fd;
+}
+
+.first-logo {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 332px;
+}
+
+.first-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 301px;
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.travel-with-us {
+  margin-right: 11px;
+}
+.what-we-do {
+  margin-right: 13px;
+}
+.who-we-are {
+  margin-right: 12px;
+}
+.first-item {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.span-for-btn-first {
+  display: flex;
+}
+.span-search-btn {
+  font-family: "Aleo";
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* de aici se incepe style al doilea div wrap-second */
+
+.wrap-second {
+  display: flex;
+  align-items: center;
+  background-image: url(./img/background-second.png);
+  padding: 120px 330px;
+  justify-content: space-between;
+  background-size: cover;
+}
+
+.second-content {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.second-title {
+  font-family: "Aleo" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.second-text {
+  margin-top: 50px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+  margin-bottom: 45px;
+}
+
+.second-btn {
+  width: 228px;
+  height: 63px;
+  background: #5474fd;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+
+.second-imgs {
+  width: 450px;
+}
+
+.scnd-img {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.second-footer {
+  display: flex;
+  gap: 143px;
+  justify-content: center;
+  height: 340px;
+  align-items: center;
+  background-color: #333333;
+}
+
+.second-footer p {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #e8e8e8;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-item img {
+  width: 60px;
+  height: 59px;
+}
+
+.shape-footer {
+  position: absolute;
+  margin-top: -210px;
+}
+
+/* style div 3 */
+
+.wrap-third {
+  background-image: url(./img/third-background.png);
+  height: 700px;
+  padding-top: 227px;
+  padding-left: 343px;
+}
+
+.wrapper-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 543px;
+}
+
+.third-content {
+  /*  padding-left: 32px;
+  padding-top: 49px;
+  padding-bottom: 50px; */
+  padding: 49px 0 50px 32px;
+}
+
+.third-paragraph {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #e8e8e8;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.third-heading {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.third-paragraph-content {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e8e8e8;
+  margin-bottom: 46px;
+  /* trebuie sa punem marimile la paragraf div paragraf */
+}
+
+.third-book {
+  width: 228px;
+  height: 63px;
+  background-color: #5474fd;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* 4 */
+
+.wrap-fourth {
+  background-image: url(./img/fourth-background.png);
+  height: 700px;
+  padding-top: 227px;
+  padding-left: 886px;
+}
+
+/* cinci */
+
+.wrap-five {
+  background-image: url(./img/five-backround.png);
+}
+
+.five-heading {
+  text-align: center;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 91px;
+  padding-top: 128px;
+}
+
+.five-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 199px;
+}
+
+.five-text {
+  background-color: #333333;
+  padding-left: 62px;
+  padding-top: 49px;
+ 
+  width: 668px;
+}
+
+.five-text h1 {
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-transform: uppercase;
+color: #FEFEFE;
+}
+
+.paragraph-quote {
+font-family: "Josefin Sans";
+font-size: 16px;
+color: #E8E8E8;
+line-height: 26px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+    padding-top: 122px;
+    padding-bottom: 47px;
+}
+
+.footer-content h1 {
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 26px;
+letter-spacing: 3.36px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+
+.footer-content p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF; 
+    margin-bottom: 15px;
+}
+
+.footer-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px ;
+}
